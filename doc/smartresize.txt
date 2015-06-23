@@ -1,0 +1,28 @@
+*smartresize.txt*  tmux-like pane resizing for vim splits
+
+Author:  Roman Decker <https://github.com/DeX3>
+License: Same terms as Vim itself (see |license|)
+
+Per default, the resize-functionality for vim splits is nice but not very
+intuitive. `tmux` does a better job by providing a more logical approach to
+pane resizing. This plugin enables the same functionality for vim splits.
+
+Instead resize-commands to resize the current window, smartresize's commands
+move the split the current window is adjacent to.
+
+This plugin works best combined with plugins like vim-submode.
+
+                                                *:SmartResizeH*
+:SmartResizeH           Move the vertical split to the left by one.
+
+                                                *:SmartResizeL*
+:SmartResizeL           Move the vertical split to the right by one.
+
+                                                *:SmartResizeJ*
+:SmartResizeJ           Move the horizontal split down by one.
+
+                                                *:SmartResizeK*
+:SmartResizeK           Move the horizontal split up by one.
+
+
+ vim:tw=78:et:ft=help:norl:
