@@ -63,7 +63,7 @@ func! s:smartResizeL()
   exec curwindow.'wincmd w' 
 endfun 
 
-command SmartResizeH call s:smartResizeH()
-command SmartResizeL call s:smartResizeL()
-command SmartResizeK call s:smartResizeK()
-command SmartResizeJ call s:smartResizeJ()
+command! SmartResizeH call s:smartResizeH()
+command! SmartResizeL call s:smartResizeL()
+command! SmartResizeK call s:smartResizeK()
+command! SmartResizeJ call s:smartResizeJ()
